@@ -1,0 +1,19 @@
+{
+    "name": "Tilia.Visuals.Tooltip.Unity.Runtime",
+    "references": [
+        "Zinnia.Runtime"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Malimbe.PropertySerializationAttribute.dll",
+        "Malimbe.XmlDocumentationAttribute.dll",
+        "Malimbe.MemberClearanceMethod.dll",
+        "Malimbe.MemberChangeMethod.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
