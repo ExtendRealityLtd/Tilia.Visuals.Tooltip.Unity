@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/compare/v1.0.0...v1.1.0) (2020-07-03)
+
+#### Features
+
+* **API:** add auto-generated API documentation ([722e380](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/commit/722e380d772aae9305ac431e96deba95d2211b86))
+  > The API documentation is auto generated with docfx and converted to markdown via turndown in a custom nodejs script.
+
+#### Bug Fixes
+
+* **package.json:** add docfx.json file ([d81b95b](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/commit/d81b95b2715eceea5f8b6fc3ebd46004596e4894))
+  > The docfx.json file was missing from the package.json causing the build process to fail. It has now been added.
+
 ## 1.0.0 (2020-06-26)
 
 #### Features
