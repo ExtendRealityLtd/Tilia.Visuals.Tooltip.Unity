@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/compare/v1.1.14...v1.2.0) (2021-03-05)
+
+#### Features
+
+* **TextProcessing:** add ability to defer text processing ([3b5267e](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/commit/3b5267ee7555c0395603ca286ad2d03474285c8b))
+  > The new TextProcessor concept allows the text processing to be deferred to a Text Processor type. The Unity UI Text type is provided by default as it is the current functionality. But it would now be possible and trivial to make a Text Processor for TextMeshPro that could then be used on the tooltip without needing to include TextMeshPro with this repo.
+
 ### [1.1.14](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/compare/v1.1.13...v1.1.14) (2021-03-03)
 
 #### Miscellaneous Chores
