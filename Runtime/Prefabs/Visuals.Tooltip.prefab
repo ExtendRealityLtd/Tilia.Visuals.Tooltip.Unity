@@ -419,7 +419,7 @@ GameObject:
   - component: {fileID: 367273391513093873}
   - component: {fileID: 367273391513093774}
   m_Layer: 0
-  m_Name: Tooltip
+  m_Name: Visuals.Tooltip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -472,6 +472,7 @@ GameObject:
   - component: {fileID: 367273391515739106}
   - component: {fileID: 367273391515739107}
   - component: {fileID: 367273391515739109}
+  - component: {fileID: 7862108968890610043}
   m_Layer: 0
   m_Name: Internal
   m_TagString: Untagged
@@ -511,7 +512,7 @@ MonoBehaviour:
   facade: {fileID: 367273391513093774}
   lineRenderer: {fileID: 367273390916758301}
   tooltipLineAnchor: {fileID: 367273392079049769}
-  tooltipText: {fileID: 367273391068485716}
+  tooltipText: {fileID: 7862108968890610043}
   outerImage: {fileID: 367273391356633658}
   innerImage: {fileID: 367273391561714906}
 --- !u!114 &367273391515739109
@@ -530,6 +531,19 @@ MonoBehaviour:
     field: {fileID: 367273391515739107}
   onlyProcessOnActiveAndEnabled: 1
   interval: 0
+--- !u!114 &7862108968890610043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367273391515739104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eb3c19599f359c47bd162b76c205d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tooltipText: {fileID: 367273391068485716}
 --- !u!1 &367273391561714907
 GameObject:
   m_ObjectHideFlags: 0
@@ -647,6 +661,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15a9c53f0e146454cb669c38817bd5b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Obtained:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Zinnia.Process.Moment.Collection.MomentProcessObservableList+UnityEvent,
+      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Found:
     m_PersistentCalls:
       m_Calls: []
