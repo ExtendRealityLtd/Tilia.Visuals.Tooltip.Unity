@@ -2,6 +2,7 @@
 {
     using Malimbe.PropertySerializationAttribute;
     using Malimbe.XmlDocumentationAttribute;
+    using Tilia.Visuals.Tooltip.TextProcessing;
     using UnityEngine;
     using UnityEngine.UI;
     using Zinnia.Data.Attribute;
@@ -40,7 +41,7 @@
         /// </summary>
         [Serialized]
         [field: DocumentedByXml, Restricted]
-        public Text TooltipText { get; protected set; }
+        public BaseTextProcessor TooltipText { get; protected set; }
         /// <summary>
         /// The <see cref="Image"/> to render as the tooltip outer background.
         /// </summary>
@@ -94,10 +95,9 @@
         /// </summary>
         public virtual void ConfigureText()
         {
-            RectTransform rect = TooltipText.GetComponent<RectTransform>();
-            TooltipText.text = Facade.TooltipText;
-            TooltipText.fontSize = Mathf.RoundToInt(Facade.FontSize / rect.localScale.x);
-            TooltipText.color = Facade.FontColor;
+            TooltipText.SetColor(Facade.FontColor);
+            TooltipText.SetSize(Facade.FontSize);
+            TooltipText.SetText(Facade.TooltipText);
         }
 
         /// <summary>
