@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/compare/v1.2.1...v1.3.0) (2021-04-07)
+
+#### Features
+
+* **Utility:** add prefab creator ([31a266b](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/commit/31a266b917047055db8ac2a0fba51d42c41c1465))
+  > The latest version of Zinnia has the basis of a prefab creator that can be used to enable easy adding of prefabs to a scene without needing to drag and drop from directories. Instead a new menu item is added for quickly adding prefabs. The guide has been updated to accommodate this and the FodyWeavers.xml is now located in the root to serve both the Runtime and Editor scripts.
+
+#### Bug Fixes
+
+* **package.json:** add missing reference to Editor directory ([ce548ae](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/commit/ce548aed3aabea5a52bf0cfafc7807ab6a8abead))
+  > The build will fail without referencing this new Editor directory so it has now been added to the package.
+
 ### [1.2.1](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/compare/v1.2.0...v1.2.1) (2021-03-29)
 
 #### Miscellaneous Chores
