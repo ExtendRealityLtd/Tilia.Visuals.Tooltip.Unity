@@ -1,5 +1,17 @@
 # Changelog
 
+### [1.3.3](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/compare/v1.3.2...v1.3.3) (2021-05-20)
+
+#### Bug Fixes
+
+* **Facade:** make tooltip text a multi line text area ([251a5ad](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/commit/251a5ad7fb6a9bb1710ae3be2689c3e958f7a1ee))
+  > The underlying UI text component can take a multiline string but the Facade `ToolTip Text` property was only a single line string making it not possible to add multiple lines via the facade. This has been fixed by adding the `TextArea` attribute to the property.
+
+#### Miscellaneous Chores
+
+* **README.md:** update title logo to related-media repo ([9181923](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/commit/9181923a6171390b3304efb3ddb35be6cf6b21cd))
+  > The title logo is now located on the related-media repo.
+
 ### [1.3.2](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/compare/v1.3.1...v1.3.2) (2021-05-09)
 
 #### Miscellaneous Chores
