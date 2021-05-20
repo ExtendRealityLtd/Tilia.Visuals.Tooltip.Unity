@@ -32,7 +32,7 @@
         /// The text to display on the tooltip.
         /// </summary>
         [Serialized]
-        [field: Header("Text Settings"), DocumentedByXml]
+        [field: Header("Text Settings"), DocumentedByXml, TextArea]
         public string TooltipText { get; set; } = "Tooltip Text";
         /// <summary>
         /// The font size for the text of the tooltip.
