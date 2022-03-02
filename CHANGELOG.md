@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/compare/v1.3.17...v1.4.0) (2022-03-02)
+
+#### Features
+
+* **package.json:** add information urls to package ([f8de3d1](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/commit/f8de3d122f395773f4bd63b5df0d38363c9c8e70))
+  > The changelog, documentation and license url has been added to the package.json as these are used within the Unity package manager.
+
 ### [1.3.17](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/compare/v1.3.16...v1.3.17) (2022-02-14)
 
 #### Miscellaneous Chores
