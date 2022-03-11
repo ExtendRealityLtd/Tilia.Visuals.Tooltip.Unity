@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/compare/v1.4.1...v1.5.0) (2022-03-11)
+
+#### Features
+
+* **HowToGuides:** add guide for adding tooltip ([d3a794a](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/commit/d3a794a4d0e7cde1c7c0089c6fba8ec6bca8ad60))
+  > A new guide has been created showing how to add a tooltip.
+
 ### [1.4.1](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/compare/v1.4.0...v1.4.1) (2022-03-02)
 
 #### Miscellaneous Chores
