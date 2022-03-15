@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.5.2](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/compare/v1.5.1...v1.5.2) (2022-03-15)
+
+#### Miscellaneous Chores
+
+* **deps:** bump io.extendreality.zinnia.unity from 1.47.0 to 1.47.1 ([f74c4e1](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/commit/f74c4e154bd89ec4d1371d16623c253dc3f11ce9))
+  > Bumps [io.extendreality.zinnia.unity](https://github.com/ExtendRealityLtd/Zinnia.Unity) from 1.47.0 to 1.47.1. - [Release notes](https://github.com/ExtendRealityLtd/Zinnia.Unity/releases) - [Changelog](https://github.com/ExtendRealityLtd/Zinnia.Unity/blob/master/CHANGELOG.md) - [Commits](https://github.com/ExtendRealityLtd/Zinnia.Unity/compare/v1.47.0...v1.47.1)
+
 ### [1.5.1](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/compare/v1.5.0...v1.5.1) (2022-03-15)
 
 #### Miscellaneous Chores
