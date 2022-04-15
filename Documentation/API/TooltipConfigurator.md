@@ -130,7 +130,7 @@ The Text to render onto the tooltip.
 ##### Declaration
 
 ```
-public Text TooltipText { get; protected set; }
+public BaseTextProcessor TooltipText { get; protected set; }
 ```
 
 ### Methods
@@ -220,6 +220,7 @@ IProcessable
 [Tilia.Visuals.Tooltip]: README.md
 [TooltipLineAnchor]: TooltipConfigurator.md#TooltipLineAnchor
 [TooltipFacade]: TooltipFacade.md
+[BaseTextProcessor]: TextProcessing/BaseTextProcessor.md
 [Inheritance]: #Inheritance
 [Namespace]: #Namespace
 [Syntax]: #Syntax

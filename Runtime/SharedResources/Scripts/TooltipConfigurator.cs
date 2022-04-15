@@ -1,7 +1,5 @@
 ﻿namespace Tilia.Visuals.Tooltip
 {
-    using Malimbe.PropertySerializationAttribute;
-    using Malimbe.XmlDocumentationAttribute;
     using Tilia.Visuals.Tooltip.TextProcessing;
     using UnityEngine;
     using UnityEngine.UI;
@@ -15,45 +13,119 @@
     public class TooltipConfigurator : MonoBehaviour, IProcessable
     {
         #region Facade Settings
+        [Header("Facade Settings")]
+        [Tooltip("The public interface facade.")]
+        [SerializeField]
+        [Restricted]
+        private TooltipFacade facade;
         /// <summary>
         /// The public interface facade.
         /// </summary>
-        [Serialized]
-        [field: Header("Facade Settings"), DocumentedByXml, Restricted]
-        public TooltipFacade Facade { get; protected set; }
+        public TooltipFacade Facade
+        {
+            get
+            {
+                return facade;
+            }
+            protected set
+            {
+                facade = value;
+            }
+        }
         #endregion
 
         #region Reference Settings
+        [Header("Reference Settings")]
+        [Tooltip("The UnityEngine.LineRenderer to draw a line from tooltip to target.")]
+        [SerializeField]
+        [Restricted]
+        private LineRenderer lineRenderer;
         /// <summary>
         /// The <see cref="UnityEngine.LineRenderer"/> to draw a line from tooltip to target.
         /// </summary>
-        [Serialized]
-        [field: Header("Reference Settings"), DocumentedByXml, Restricted]
-        public LineRenderer LineRenderer { get; protected set; }
+        public LineRenderer LineRenderer
+        {
+            get
+            {
+                return lineRenderer;
+            }
+            protected set
+            {
+                lineRenderer = value;
+            }
+        }
+        [Tooltip("The GameObject use as the anchor point for the line.")]
+        [SerializeField]
+        [Restricted]
+        private GameObject tooltipLineAnchor;
         /// <summary>
         /// The <see cref="GameObject"/> use as the anchor point for the line.
         /// </summary>
-        [Serialized]
-        [field: DocumentedByXml, Restricted]
-        public GameObject TooltipLineAnchor { get; protected set; }
+        public GameObject TooltipLineAnchor
+        {
+            get
+            {
+                return tooltipLineAnchor;
+            }
+            protected set
+            {
+                tooltipLineAnchor = value;
+            }
+        }
+        [Tooltip("The Text to render onto the tooltip.")]
+        [SerializeField]
+        [Restricted]
+        private BaseTextProcessor tooltipText;
         /// <summary>
         /// The <see cref="Text"/> to render onto the tooltip.
         /// </summary>
-        [Serialized]
-        [field: DocumentedByXml, Restricted]
-        public BaseTextProcessor TooltipText { get; protected set; }
+        public BaseTextProcessor TooltipText
+        {
+            get
+            {
+                return tooltipText;
+            }
+            protected set
+            {
+                tooltipText = value;
+            }
+        }
+        [Tooltip("The Image to render as the tooltip outer background.")]
+        [SerializeField]
+        [Restricted]
+        private Image outerImage;
         /// <summary>
         /// The <see cref="Image"/> to render as the tooltip outer background.
         /// </summary>
-        [Serialized]
-        [field: DocumentedByXml, Restricted]
-        public Image OuterImage { get; protected set; }
+        public Image OuterImage
+        {
+            get
+            {
+                return outerImage;
+            }
+            protected set
+            {
+                outerImage = value;
+            }
+        }
+        [Tooltip("The Image to render as the tooltip inner background.")]
+        [SerializeField]
+        [Restricted]
+        private Image innerImage;
         /// <summary>
         /// The <see cref="Image"/> to render as the tooltip inner background.
         /// </summary>
-        [Serialized]
-        [field: DocumentedByXml, Restricted]
-        public Image InnerImage { get; protected set; }
+        public Image InnerImage
+        {
+            get
+            {
+                return innerImage;
+            }
+            protected set
+            {
+                innerImage = value;
+            }
+        }
         #endregion
 
         /// <summary>
