@@ -1,7 +1,5 @@
 ﻿namespace Tilia.Visuals.Tooltip.TextProcessing
 {
-    using Malimbe.PropertySerializationAttribute;
-    using Malimbe.XmlDocumentationAttribute;
     using UnityEngine;
     using UnityEngine.UI;
 
@@ -10,12 +8,23 @@
     /// </summary>
     public class UITextProcessor : BaseTextProcessor
     {
+        [Tooltip("The Text to render onto the tooltip.")]
+        [SerializeField]
+        private Text tooltipText;
         /// <summary>
         /// The <see cref="Text"/> to render onto the tooltip.
         /// </summary>
-        [Serialized]
-        [field: DocumentedByXml]
-        public Text TooltipText { get; set; }
+        public Text TooltipText
+        {
+            get
+            {
+                return tooltipText;
+            }
+            set
+            {
+                tooltipText = value;
+            }
+        }
 
         /// <inheritdoc />
         public override void SetColor(Color color)

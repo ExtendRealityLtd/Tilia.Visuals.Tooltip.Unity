@@ -17,6 +17,8 @@ The public interface for the Tooltip prefab.
   * [OuterBackgroundColor]
   * [TooltipText]
 * [Methods]
+  * [ClearFacingSource()]
+  * [ClearLineOrigin()]
   * [OnAfterFontColorChange()]
   * [OnAfterFontSizeChange()]
   * [OnAfterInnerBackgroundColorChange()]
@@ -125,6 +127,26 @@ public string TooltipText { get; set; }
 
 ### Methods
 
+#### ClearFacingSource()
+
+Clears [FacingSource].
+
+##### Declaration
+
+```
+public virtual void ClearFacingSource()
+```
+
+#### ClearLineOrigin()
+
+Clears [LineOrigin].
+
+##### Declaration
+
+```
+public virtual void ClearLineOrigin()
+```
+
 #### OnAfterFontColorChange()
 
 Called after [FontColor] has been changed.
@@ -187,6 +209,8 @@ protected virtual void OnAfterTooltipTextChange()
 
 [Tilia.Visuals.Tooltip]: README.md
 [TooltipConfigurator]: TooltipConfigurator.md
+[FacingSource]: TooltipFacade.md#FacingSource
+[LineOrigin]: TooltipFacade.md#LineOrigin
 [FontColor]: TooltipFacade.md#FontColor
 [FontSize]: TooltipFacade.md#FontSize
 [InnerBackgroundColor]: TooltipFacade.md#InnerBackgroundColor
@@ -206,6 +230,8 @@ protected virtual void OnAfterTooltipTextChange()
 [OuterBackgroundColor]: #OuterBackgroundColor
 [TooltipText]: #TooltipText
 [Methods]: #Methods
+[ClearFacingSource()]: #ClearFacingSource
+[ClearLineOrigin()]: #ClearLineOrigin
 [OnAfterFontColorChange()]: #OnAfterFontColorChange
 [OnAfterFontSizeChange()]: #OnAfterFontSizeChange
 [OnAfterInnerBackgroundColorChange()]: #OnAfterInnerBackgroundColorChange
