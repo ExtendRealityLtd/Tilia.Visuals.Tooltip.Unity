@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.0.18](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/compare/v2.0.17...v2.0.18) (2023-06-14)
+
+#### Miscellaneous Chores
+
+* **deps:** bump io.extendreality.tilia.utilities.shaders.unity ([e412678](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/commit/e412678673f91877d543b725c12dd23995191b18))
+  > Bumps [io.extendreality.tilia.utilities.shaders.unity](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity) from 1.3.1 to 1.4.0. - [Release notes](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/releases) - [Changelog](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/blob/master/CHANGELOG.md) - [Commits](https://github.com/ExtendRealityLtd/Tilia.Utilities.Shaders.Unity/compare/v1.3.1...v1.4.0)
+
 ### [2.0.17](https://github.com/ExtendRealityLtd/Tilia.Visuals.Tooltip.Unity/compare/v2.0.16...v2.0.17) (2023-05-06)
 
 #### Miscellaneous Chores
